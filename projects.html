@@ -1,0 +1,253 @@
+	
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gelo | Projects</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-inner">
+
+            <a href="index.html" class="site-logo">Gelo.</a>
+
+            <nav class="navigation">
+                <a href="index.html">ABOUT</a>
+                <a href="skills.html">SKILLS</a>
+                <a href="projects.html" class="nav-active">PROJECTS</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+
+            <div class="header-status">
+                <span class="status-dot"></span>
+                STUDENT
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Projects Section -->
+        <section class="page-section">
+
+            <div class="section-heading">
+
+                <span class="section-number">03 / PROJECTS</span>
+
+                <h1>GROUP <span>PROJECTS.</span></h1>
+
+                <p>
+                    School projects and practice work that help me develop
+                    my programming and problem-solving skills.
+                </p>
+
+            </div>
+
+            <!-- Projects Carousel -->
+            <div class="projects-carousel">
+
+                <!-- Previous Button -->
+                <button class="carousel-btn prev-btn"
+                        onclick="moveProjects(-1)"
+                        aria-label="Previous project">
+                    &#10094;
+                </button>
+
+                <!-- Carousel Viewport -->
+                <div class="projects-viewport">
+
+                    <div class="projects-grid" id="projectsTrack">
+
+                        <!-- Project 01 -->
+                        <article class="project-card">
+
+                            <div class="project-image">
+                             <img src="myyyportfolioo/images/python.png"> alt="Python Project">
+                            </div>
+
+                            <div class="project-details">
+
+                                <span>01 / DESKTOP APPLICATION</span>
+
+                                <h2>Personal Diary App</h2>
+
+                                <p>
+                                    A personal diary application developed using Python.
+                                    It allows users to write, save, and manage their daily
+                                    journal entries in a simple and organized way.
+                                </p>
+
+                                <div class="project-tags">
+                                    <span>PYTHON</span>
+                                    <span>FILE HANDLING</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                        <!-- Project 02 -->
+                        <article class="project-card">
+
+                            <div class="project-image">
+                               <img src="./library.png"> alt="Library Project">
+                            </div>
+
+                            <div class="project-details">
+
+                                <span>02 / WEB &amp; DATABASE</span>
+
+                                <h2>Library Management System</h2>
+
+                                <p>
+                                    A school project concept for organizing library
+                                    records, borrowed books, returns, and book availability.
+                                </p>
+
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JAVASCRIPT</span>
+                                    <span>SQL</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                        <!-- Project 03 -->
+                        <article class="project-card">
+
+                            <div class="project-image">
+                           <img src="./personal.png"> alt="Personal Website">
+                            </div>
+
+                            <div class="project-details">
+
+                                <span>03 / WEB DEVELOPMENT</span>
+
+                                <h2>Personal Portfolio Website</h2>
+
+                                <p>
+                                    A personal website created to showcase my
+                                    background, skills, projects, and contact
+                                    information through a simple and responsive design.
+                                </p>
+
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JAVASCRIPT</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                        <!-- Project 04 -->
+                        <article class="project-card">
+
+                            <div class="project-image">
+                               <img src="./app.jpg"> alt="E-commerce App">
+                            </div>
+
+                            <div class="project-details">
+
+                                <span>04 / MOBILE APPLICATION</span>
+
+                                <h2>E-commerce Mobile App</h2>
+
+                                <p>
+                                    A student mobile application developed using Flutter
+                                    and Dart. It allows users to browse products, view
+                                    item details, add products to their cart, and
+                                    experience a simple checkout process.
+                                </p>
+
+                                <div class="project-tags">
+                                    <span>FLUTTER</span>
+                                    <span>DART</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                        <!-- Project 05 -->
+                        <article class="project-card">
+
+                            <div class="project-image">
+                              <img src="./lms.png"> alt="LMS Screenshot">
+                                    
+                            </div>
+
+                            <div class="project-details">
+
+                                <span>05 / LEARNING MANAGEMENT SYSTEM</span>
+
+                                <h2>Learning Management System</h2>
+
+                                <p>
+                                    A school project developed using Java, HTML, and Python.
+                                    It focuses on managing learning materials, organizing
+                                    student records, and providing a platform for accessing
+                                    educational resources.
+                                </p>
+
+                                <div class="project-tags">
+                                    <span>JAVA</span>
+                                    <span>HTML</span>
+                                    <span>PYTHON</span>
+                                    <span>AOOP</span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+                <!-- Next Button -->
+                <button class="carousel-btn next-btn"
+                        onclick="moveProjects(1)"
+                        aria-label="Next project">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <!-- Note -->
+            <p class="small-note">
+               
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <a href="index.html">Gelo</a>
+
+        <span>IT PORTFOLIO · 2026</span>
+
+        <a href="contact.html">GET IN TOUCH ↗</a>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
